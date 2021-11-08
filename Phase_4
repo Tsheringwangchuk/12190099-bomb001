@@ -800,7 +800,7 @@ Dump of assembler code for function phase_4:
 End of assembler dump.
 (gdb) ni
 0x000000000040105b in phase_4 ()
-//Sine the eax is equal to 0x23, it skip the explode bomb
+//Since the eax is equal to 0x23, it skip the explode bomb
 (gdb) disas
 Dump of assembler code for function phase_4:
    0x000000000040100e <+0>:	sub    $0x18,%rsp
